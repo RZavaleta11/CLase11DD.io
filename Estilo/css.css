@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+h1 {font-family: 'Ubuntu', sans-serif;}
+
+.lead {font-family: 'Josefin Sans', sans-serif;}
+
+.btn-success {
+    background-color: #8C6620;
+    border-color: #94A6A2;
+  }
+
+.btn-primary{
+    background-color: #637371;
+    border-color: #637371
+    color: #2F403B;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #94A6A2;
+    border-color: #94A6A2;
+  }
+
+  .btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #94A6A2;
+    border-color: #94A6A2;
+    box-shadow: 0 0 0 0.2rem rgba(255, 42, 38, 0.5);
+  }
+
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #17205C;
+  border-color:#94A6A2;
+}
+
+.navbar-brand { color:navbar-brand}
+
+
